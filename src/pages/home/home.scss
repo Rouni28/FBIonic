@@ -37,4 +37,17 @@ page-home {
     .formSpacing > ion-col > ion-list{
         margin: 0px;
     }
+    .elementSpacing{
+        margin-right: 10px;
+    }
+    hr{
+        border-width: 1px;
+        color: grey;
+    }
+    .links > span {
+        color: blue;
+    }
+    .copyright{
+        font-size: 12px;
+    }
 }
