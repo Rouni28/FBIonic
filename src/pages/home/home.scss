@@ -1,3 +1,28 @@
 page-home {
-
+    .toolbar-background-md{
+        background-color: #45619D;
+    }
+    .logoSpec{
+        height: 65px;
+    }
+    .rightBlock > ion-row > ion-col > ion-list > .item-md{
+        background-color: transparent;
+        padding-left: 0px;
+    }
+    ion-navbar{
+        padding-top: 0px !important;
+    }
+    .white{
+        color: #FFF !important;
+        font-weight: 100;
+    }
+    .ion-input > .text-input {
+        color: #FFF !important;
+    }
+    .loginBTN{
+        margin-top: 20px;
+    }
+    .grid{
+        padding: 0px;
+    }
 }
