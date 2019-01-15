@@ -1,5 +1,5 @@
 page-home {
-    .toolbar-background-md{
+    .toolbar-background-md, .toolbar-background-ios{
         background-color: #45619D;
     }
     .logoSpec{
@@ -49,5 +49,18 @@ page-home {
     }
     .copyright{
         font-size: 12px;
+    }
+    .mobile {
+        .logoSpec {
+            height: 50px;
+            width: 60%;
+            align-self: center;
+        }
+        .list-ios > .item-block:first-child{
+            border-top: none;
+        }
+        .item-ios{
+            padding-left: 0px;
+        }
     }
 }

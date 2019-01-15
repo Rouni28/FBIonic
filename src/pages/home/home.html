@@ -1,6 +1,6 @@
 <ion-header>
   <ion-navbar class="bodySpacing">
-    <ion-grid>
+    <ion-grid *ngIf="!mobileDevice">
       <ion-row>
         <ion-col col-5 class="leftBlock">
           <img src="../../assets/imgs/facebook-transparent-logo-png-9.png" alt="facebook" class="logoSpec" />
@@ -30,11 +30,14 @@
         </ion-col>
       </ion-row>
     </ion-grid>
+    <ion-grid *ngIf="mobileDevice" class="mobile">
+      <img src="../../assets/imgs/facebook-transparent-logo-png-9.png" alt="facebook" class="logoSpec" />
+    </ion-grid>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <ion-grid>
+  <ion-grid *ngIf="!mobileDevice">
     <ion-row class="bodySpacing">
       <!-- Body Left Side content -->
       <ion-col col-5>
@@ -113,7 +116,21 @@
       </ion-col>
     </ion-row>
   </ion-grid>
-
+  <ion-grid *ngIf="mobileDevice" class="mobile">
+    <ion-list>
+      <ion-item>
+        <ion-label floating>Username</ion-label>
+        <ion-input type="text" maxlength="5"></ion-input>
+      </ion-item>
+    </ion-list>
+    <ion-list>
+      <ion-item>
+        <ion-label floating>Password</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+    </ion-list>
+    <button class="loginBTN" ion-button color="secondary" round>Login</button>
+  </ion-grid>
 </ion-content>
 
 <ion-footer class="bodySpacing">
