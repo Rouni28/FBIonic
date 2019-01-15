@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
 
 @Component({
   selector: 'page-home',
@@ -13,7 +13,7 @@ export class HomePage {
     this.texto =this.dateOfevent.substr(0,10);
     console.log("Fecha seleccionada ", this.dateOfevent.substr(0,10));
   }
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController, public navParam : NavParams) {
     this.detectmob();
     //console.log(this.mobileDevice);
   }
@@ -33,5 +33,8 @@ export class HomePage {
       this.mobileDevice = false;
      }
    }
-
+   
+   userLogin(){
+     this.navCtrl.push('ProfilePage');
+   }
 }
