@@ -1,14 +1,29 @@
 page-profile {
-    .icon{
-      padding: 5px 10px;
-      font-size: 1.4 rem;
-      line-height: 0.5;
+    .section-top{
+        position: relative;
     }
-    .profileBckImg{
-        max-height: 50%;
+    .overImg {
+        border: 4px solid white;
+        position: absolute;
+        bottom: -25px;
+        left: 18%;
+        border-radius: 90px;
+    } 
+    .section-top > .profileBckImg {
+        max-height: 300px;
         width:100%;
     }
+    
+    .section-two{
+        margin-top: 40px;
+    }
+    .iconRightSpec{
+        margin-right: 10px;
+    }
+    .floatRight{
+        float: right;
+    }
     .postImgSpec{
-        max-height: 250px;
+        max-height: 300px;
     }
 }
