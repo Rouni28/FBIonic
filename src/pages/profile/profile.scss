@@ -3,8 +3,12 @@ page-profile {
       padding: 5px 10px;
       font-size: 1.4 rem;
       line-height: 0.5;
-
-
     }
-
+    .profileBckImg{
+        max-height: 50%;
+        width:100%;
+    }
+    .postImgSpec{
+        max-height: 250px;
+    }
 }
