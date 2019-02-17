@@ -26,4 +26,26 @@ page-profile {
     .postImgSpec{
         max-height: 300px;
     }
+    .user-friends{
+        padding-top:5%;
+        padding-bottom:5%;
+        position: relative;
+        text-align: left;
+    }
+    .card-title {
+        position: absolute;
+        top: 80%;
+        font-size: 15px;
+        left: 10%;
+        width: 100%;
+        color:rgb(255, 255, 255);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    } 
+    .space > ion-col{
+        padding: 2px !important;
+    }
+    .space > ion-col > .card-md{
+        margin: 0px !important;
+        width: auto !important;
+    }
 }
