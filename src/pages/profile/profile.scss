@@ -26,6 +26,23 @@ page-profile {
     .postImgSpec{
         max-height: 300px;
     }
+    .icons{
+        font-size: 15px;
+    }
+    .font{
+        font-family: sans-serif;
+    }
+    .navigation-labels{
+        text-transform: capitalize;
+        padding: 12px 20px;
+        border-left: 1px solid rgba(136, 125, 125, 0.33);
+        color: blue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+    }
+    .navigation-labels:hover{
+        color: grey;
+    }
     .horizontal{
         background-color: rgba(211, 211, 211, 0.384);
     }
