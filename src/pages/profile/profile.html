@@ -15,7 +15,7 @@
   <div class="section-two bodySpacing">
     <ion-grid>
       <ion-row>
-        <ion-col col-5>
+        <ion-col col-12 col-lg-5 col-md-5>
           <ion-card>
             <ion-card-content>
                 <ion-icon class="iconRightSpec" name="star"></ion-icon>
@@ -67,7 +67,67 @@
             </ion-card-content>
            </ion-card>
         </ion-col>
-        <ion-col col-7>
+        <ion-col col-12 col-lg-7 col-md-7>
+
+          <ion-card>
+              <ion-item class="horizontal">
+                  <div>
+                  <ion-icon ios="ios-create" md="md-create"></ion-icon>
+                  Create Post
+                  </div>
+                  
+              </ion-item>
+              <ion-item>
+                  <ion-avatar item-start>
+                      <img src="../../assets/imgs/img2.jpg"/>
+                  </ion-avatar>
+                  <h3>What's on your mind ?</h3>
+              </ion-item>
+              <hr>
+              
+
+              <ion-item>
+                  <button ion-button icon-start clear small style="color:black;">
+                      <!-- <input type="file" class="nodisplay" style="display:none;" /> -->
+                      <ion-icon ios="ios-images" md="md-images" style="color: chartreuse;"></ion-icon>
+                      Photo/Video
+                  </button>
+                  <span>
+                      <button ion-button icon-start clear small style="color:black;">
+                         <ion-icon ios="ios-contacts" md="md-contacts" style="color:blue;"></ion-icon>
+                          Tag Friends
+                      </button>
+                  </span>
+                  <span>
+                      <button ion-button icon-start clear small style="color:black;">
+                          <ion-icon ios="ios-happy" md="md-happy" style="color:goldenrod;"></ion-icon>
+                          Feeling/Active
+                      </button>
+                  </span>
+                  <span>
+                      <button ion-button icon-start clear small style="color:black;">
+                          <ion-icon name="more" md="ios-more"></ion-icon>
+                      </button>
+                  </span>
+                  <hr>
+              </ion-item>
+
+              <ion-item class="create-post-btn">
+                  <button ion-button icon-start clear small style="color:black;">
+                      <ion-icon name='people'></ion-icon>
+                      Friends
+                    </button>
+                    <span>
+                        <button ion-button icon-start clear small style="background-color: rgba(115, 168, 238, 0.479); color:white" >
+                          POST
+                            
+                          </button>
+                    </span>
+              </ion-item>
+
+
+          </ion-card>
+
           <ion-card>
 
             <ion-item>
